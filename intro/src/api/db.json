@@ -1,0 +1,28 @@
+{
+    "books":[
+        {
+            "id":1,
+            "title":"insancıklar",
+            "overview":"lorem ipsum dolor sit",
+            "imageURL":"https://i.dr.com.tr/cache/600x600-0/originals/0000000433607-1.jpg",
+            "author":"Dostoyevski",
+            "price":30
+        },
+        {
+            "id":2,
+            "title":"suc ve ceza",
+            "overview":"lorem ipsum dolor sit",
+            "imageURL":"https://i.dr.com.tr/cache/600x600-0/originals/0000000433607-1.jpg",
+            "author":"Dostoyevski",
+            "price":45
+        },
+        {
+            "id":3,
+            "title":"sinekli bakkal",
+            "overview":"lorem ipsum dolor sit",
+            "imageURL":"https://i.dr.com.tr/cache/600x600-0/originals/0000000433607-1.jpg",
+            "author":"Halide Edip Adıvar",
+            "price":50
+        }
+    ]
+}
