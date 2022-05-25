@@ -22,8 +22,8 @@ export default function Product({ item }) {
     return (
  
         <div className="card" style={{width: "18rem"}} >
-            {books.map((item, i) => (
-                <div key={item.id}>
+            
+                <div >
                     <Link to={`/product/ ${item.id}`}>
                         <img src={item.imageURL} className="card-img-top" alt="..." />
                     </Link>
@@ -32,7 +32,7 @@ export default function Product({ item }) {
                         <p className="card-text">{item.price}tl</p>
                         <button onClick={() => addtobasket(books, findBasketItem)} className="btn btn-primary">sepete ekle</button>
                     </div>
-                </div>))}
+                </div>
         </div>
 
 

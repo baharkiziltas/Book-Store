@@ -15,7 +15,7 @@ export default function ProductDetail({id,title,imageURL,author,price }) {
     const findDetailItem = books.find((element, detail) => element.id === product_id);
 
      return(
-     <div>{findDetailItem ? "geldi" : product_id }</div>
+     <div>{findDetailItem ? "geldi" :  product_id }</div>
      )   
                     
                     

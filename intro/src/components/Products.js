@@ -19,7 +19,7 @@ export default function Products({id,title,imageURL,author,price }) {
         <div className='row mt-5 '>
         <div className="card-group ">
         {books.map((item, i) => (
-          <Product key={item.id}></Product>
+          <Product key={item.id} item={item} ></Product>
 ))}                             
     </div>
     </div>
