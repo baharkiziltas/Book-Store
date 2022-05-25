@@ -3,7 +3,7 @@ import { BookContext } from '../context/BookContext'
 import { useContext } from 'react'
 import { useParams,} from 'react-router-dom'
 
-export default function ProductDetail({id,title,imageURL,author,price }) {
+export default function ProductDetail(props) {
     
 
    const {product_id} = useParams();
@@ -15,7 +15,7 @@ export default function ProductDetail({id,title,imageURL,author,price }) {
     const findDetailItem = books.find((element, detail) => element.id === product_id);
 
      return(
-     <div>{findDetailItem ? "geldi" :  product_id }</div>
+     <div>{findDetailItem ? "geldi" : product_id }</div>
      )   
                     
                     
